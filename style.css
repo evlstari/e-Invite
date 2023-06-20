@@ -49,11 +49,14 @@
     text-align: center;
   }
 
+  .theme p{
+    padding: 30px 0px;
+  }
   /*macam buah sayur*/
 .service {
     margin: 30px 30px;
     width: auto;
-    background-color:#c8baa8; 
+    /* background-color:#c8baa8;  */
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -71,7 +74,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 15px;
-    background-color: #c8baa8; 
+    /* background-color: #c8baa8;  */
     /* height: 50%; */
     transition: all 0.5s ease;
     
@@ -124,5 +127,12 @@
     background-color:  #ccc;;
     color: white;
     text-align: center;
+  }
+
+  #paket{
+    margin-bottom: 100px;
+  }
+  .footer-sec {
+    border-top: 1px solid #ccc;
   }
   
